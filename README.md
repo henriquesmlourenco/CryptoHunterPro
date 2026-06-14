@@ -187,6 +187,24 @@ GOOS=darwin GOARCH=amd64 go build -o crypto_hunter_pro_cie .
 
 ---
 
+## Estrutura do Repositorio
+
+```
+crypto-hunter-pro/
+├── CRYPTO_HUNTER_PRO_CIE/              # Codigo-fonte + executaveis do CIE
+├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/  # Codigo-fonte + executaveis do Unmixer
+├── DOCS/                               # Documentacao completa (PDF em PT e EN)
+├── README.md
+├── logo.png
+└── LICENSE
+```
+
+> **Documentacao Completa:** Para instrucoes detalhadas de instalacao, uso e configuracao, acesse a pasta [`DOCS/`](./DOCS). La voce encontra os manuais completos em PDF (Portugues e Ingles) de cada modulo.
+>
+> **Executaveis prontos:** As pastas `CRYPTO_HUNTER_PRO_CIE/` e `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` ja contem os executaveis (.exe) prontos para Windows. Basta baixar e executar.
+
+---
+
 ## Exemplos de Uso
 
 ### Exemplo 1: Modo Descrambler (Modo 4)
@@ -470,6 +488,24 @@ GOOS=darwin GOARCH=amd64 go build -o unmixer_seed_search .
 cd ../CRYPTO_HUNTER_PRO_CIE
 GOOS=darwin GOARCH=amd64 go build -o crypto_hunter_pro_cie .
 ```
+
+---
+
+## Repository Structure
+
+```
+crypto-hunter-pro/
+├── CRYPTO_HUNTER_PRO_CIE/              # Source code + executables for CIE
+├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/  # Source code + executables for Unmixer
+├── DOCS/                               # Full documentation (PDF in PT and EN)
+├── README.md
+├── logo.png
+└── LICENSE
+```
+
+> **Full Documentation:** For detailed installation, usage, and configuration instructions, access the [`DOCS/`](./DOCS) folder. There you will find complete manuals in PDF (Portuguese and English) for each module.
+>
+> **Ready-to-use executables:** The `CRYPTO_HUNTER_PRO_CIE/` and `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` folders already contain ready-to-run executables (.exe) for Windows. Just download and run.
 
 ---
 
