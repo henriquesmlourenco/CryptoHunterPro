@@ -165,6 +165,26 @@ go build -o crypto_hunter_pro_cie .
 # Basta dar duplo clique no compilador.bat em cada pasta do modulo
 ```
 
+### Linux e macOS (via codigo-fonte)
+
+> **Nota:** Os binarios pre-compilados (.exe) sao para Windows. Para Linux e macOS, compile diretamente a partir do codigo-fonte:
+
+```bash
+# Linux
+cd CRYPTO_HUNTER_PRO_Unmixer_Seed_Search
+GOOS=linux GOARCH=amd64 go build -o unmixer_seed_search .
+
+cd ../CRYPTO_HUNTER_PRO_CIE
+GOOS=linux GOARCH=amd64 go build -o crypto_hunter_pro_cie .
+
+# macOS
+cd CRYPTO_HUNTER_PRO_Unmixer_Seed_Search
+GOOS=darwin GOARCH=amd64 go build -o unmixer_seed_search .
+
+cd ../CRYPTO_HUNTER_PRO_CIE
+GOOS=darwin GOARCH=amd64 go build -o crypto_hunter_pro_cie .
+```
+
 ---
 
 ## Exemplos de Uso
@@ -429,6 +449,26 @@ go build -o crypto_hunter_pro_cie .
 
 ```batch
 # Just double-click compilador.bat in each module folder
+```
+
+### Linux and macOS (from source)
+
+> **Note:** Pre-compiled binaries (.exe) are for Windows. For Linux and macOS, compile directly from source code:
+
+```bash
+# Linux
+cd CRYPTO_HUNTER_PRO_Unmixer_Seed_Search
+GOOS=linux GOARCH=amd64 go build -o unmixer_seed_search .
+
+cd ../CRYPTO_HUNTER_PRO_CIE
+GOOS=linux GOARCH=amd64 go build -o crypto_hunter_pro_cie .
+
+# macOS
+cd CRYPTO_HUNTER_PRO_Unmixer_Seed_Search
+GOOS=darwin GOARCH=amd64 go build -o unmixer_seed_search .
+
+cd ../CRYPTO_HUNTER_PRO_CIE
+GOOS=darwin GOARCH=amd64 go build -o crypto_hunter_pro_cie .
 ```
 
 ---
