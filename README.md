@@ -33,6 +33,39 @@
   <img src="logo.png" alt="Crypto Hunter Pro" width="200"/>
 </p>
 
+---
+
+<h2 align="center">Criadores / Creators</h2>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>Henrique Lourenco</strong><br/>
+      <em>Criador / Creator</em><br/><br/>
+      <a href="https://www.linkedin.com/in/henriquelourenco">LinkedIn</a> · 
+      <a href="https://www.instagram.com/henrique.web3">Instagram</a>
+    </td>
+    <td align="center">
+      <strong>Alexandre Senra</strong><br/>
+      <em>Criador / Creator</em><br/><br/>
+      <a href="https://www.linkedin.com/in/alexandresenra">LinkedIn</a> · 
+      <a href="https://www.instagram.com/alexandresenra_">Instagram</a>
+    </td>
+  </tr>
+</table>
+
+<h3 align="center">Doe e Mantenha o Projeto Vivo / Donate and Keep the Project Alive</h3>
+
+<p align="center">
+  <em>Este projeto e 100% gratuito e open-source. Se te ajudou, retribua com qualquer valor!</em><br/>
+  <em>This project is 100% free and open-source. If it helped you, give back with any amount!</em><br/><br/>
+  <strong>BTC:</strong> <code>bc1qpq0cgvyxczetumdf87345zzk0zr0xz96ampmhs</code><br/>
+  <strong>ETH:</strong> <code>henriquelourenco.eth</code><br/>
+  <strong>PIX:</strong> <code>henriquesamuel@yahoo.com.br</code>
+</p>
+
+---
+
 <p align="center">
   <strong>Este README esta disponivel em:</strong><br/>
   <a href="#portugues-brasil">Portugues :brazil:</a> · <a href="#english">English :us:</a>
@@ -278,43 +311,6 @@ Escaneando 31 redes...
 - **Sem Dependencias Externas em Runtime**: O binario compilado e autossuficiente.
 
 > **AVISO**: Nunca compartilhe suas seed phrases com ninguem. Nunca insira suas seed phrases em websites. Sempre verifique que voce esta rodando a versao oficial open-source.
-
----
-
-## Criadores
-
-<table>
-  <tr>
-    <td align="center">
-      <strong>Henrique Lourenco</strong><br/>
-      <em>Criador</em><br/><br/>
-      <a href="https://www.linkedin.com/in/henriquelourenco">LinkedIn</a> · 
-      <a href="https://www.instagram.com/henrique.web3">Instagram</a>
-    </td>
-    <td align="center">
-      <strong>Alexandre Senra</strong><br/>
-      <em>Criador</em><br/><br/>
-      <a href="https://www.linkedin.com/in/alexandresenra">LinkedIn</a> · 
-      <a href="https://www.instagram.com/alexandresenra_">Instagram</a>
-    </td>
-  </tr>
-</table>
-
----
-
-## Apoie o Projeto
-
-Este e um **projeto gratuito e open-source** construido com dedicacao e incontaveis horas de trabalho. Se o Crypto Hunter Pro te ajudou a recuperar seus fundos ou voce simplesmente quer apoiar o desenvolvimento open-source independente, por favor considere fazer uma doacao.
-
-**Toda doacao, por menor que seja, nos ajuda a manter este projeto vivo e ativamente mantido.**
-
-### Henrique Lourenco
-
-| Rede | Endereco |
-|------|----------|
-| **BTC** | `bc1qpq0cgvyxczetumdf87345zzk0zr0xz96ampmhs` |
-| **ETH** | `henriquelourenco.eth` |
-| **PIX** | `henriquesamuel@yahoo.com.br` |
 
 ---
 
@@ -585,43 +581,6 @@ Scanning 31 networks...
 
 ---
 
-## Creators
-
-<table>
-  <tr>
-    <td align="center">
-      <strong>Henrique Lourenco</strong><br/>
-      <em>Creator</em><br/><br/>
-      <a href="https://www.linkedin.com/in/henriquelourenco">LinkedIn</a> · 
-      <a href="https://www.instagram.com/henrique.web3">Instagram</a>
-    </td>
-    <td align="center">
-      <strong>Alexandre Senra</strong><br/>
-      <em>Creator</em><br/><br/>
-      <a href="https://www.linkedin.com/in/alexandresenra">LinkedIn</a> · 
-      <a href="https://www.instagram.com/alexandresenra_">Instagram</a>
-    </td>
-  </tr>
-</table>
-
----
-
-## Support the Project
-
-This is a **free, open-source project** built with dedication and countless hours of work. If Crypto Hunter Pro helped you recover your funds or you simply want to support independent open-source development, please consider making a donation.
-
-**Every donation, no matter how small, helps us keep this project alive and actively maintained.**
-
-### Henrique Lourenco
-
-| Network | Address |
-|---------|---------|
-| **BTC** | `bc1qpq0cgvyxczetumdf87345zzk0zr0xz96ampmhs` |
-| **ETH** | `henriquelourenco.eth` |
-| **PIX** | `henriquesamuel@yahoo.com.br` |
-
----
-
 ## Contributing
 
 We welcome contributions! Whether it's bug fixes, new features, documentation improvements, or translations, feel free to open a Pull Request.
@@ -629,7 +588,7 @@ We welcome contributions! Whether it's bug fixes, new features, documentation im
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`) 
+4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ---
