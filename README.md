@@ -253,13 +253,6 @@ Este e um **projeto gratuito e open-source** construido com dedicacao e incontav
 | **ETH** | `henriquelourenco.eth` |
 | **PIX** | `henriquesamuel@yahoo.com.br` |
 
-### Alexandre Senra
-
-| Rede | Endereco |
-|------|----------|
-| **BTC** | *(em breve)* |
-| **ETH** | `senra.eth` |
-| **PIX** | *(em breve)* |
 
 ---
 
