@@ -527,15 +527,6 @@ This is a **free, open-source project** built with dedication and countless hour
 | **ETH** | `henriquelourenco.eth` |
 | **PIX** | `henriquesamuel@yahoo.com.br` |
 
-### Alexandre Senra
-
-| Network | Address |
-|---------|---------|
-| **BTC** | *(coming soon)* |
-| **ETH** | `senra.eth` |
-| **PIX** | *(coming soon)* |
-
----
 
 ## Contributing
 
