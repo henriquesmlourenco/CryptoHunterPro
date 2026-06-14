@@ -8,6 +8,31 @@
 
 <h1 align="center">CRYPTO HUNTER PRO</h1>
 
+<pre align="center">
+ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ 
+██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═══██╗
+██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║   ██║
+██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██║   ██║
+╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝
+ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ 
+██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗ 
+██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗
+███████║██║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝
+██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗
+██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+██████╗ ██████╗  ██████╗ 
+██╔══██╗██╔══██╗██╔═══██╗
+██████╔╝██████╔╝██║   ██║
+██╔═══╝ ██╔══██╗██║   ██║
+██║     ██║  ██║╚██████╔╝
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ 
+</pre>
+
+<p align="center">
+  <img src="logo.png" alt="Crypto Hunter Pro" width="200"/>
+</p>
+
 <p align="center">
   <strong>Este README esta disponivel em:</strong><br/>
   <a href="#portugues-brasil">Portugues :brazil:</a> · <a href="#english">English :us:</a>
@@ -252,7 +277,6 @@ Este e um **projeto gratuito e open-source** construido com dedicacao e incontav
 | **BTC** | `bc1qpq0cgvyxczetumdf87345zzk0zr0xz96ampmhs` |
 | **ETH** | `henriquelourenco.eth` |
 | **PIX** | `henriquesamuel@yahoo.com.br` |
-
 
 ---
 
@@ -520,6 +544,7 @@ This is a **free, open-source project** built with dedication and countless hour
 | **ETH** | `henriquelourenco.eth` |
 | **PIX** | `henriquesamuel@yahoo.com.br` |
 
+---
 
 ## Contributing
 
