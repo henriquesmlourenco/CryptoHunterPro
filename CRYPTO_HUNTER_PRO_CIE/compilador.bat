@@ -1,9 +1,11 @@
 @echo off
 chcp 65001 >nul 2>&1
+cd /d "%~dp0"
 setlocal enabledelayedexpansion
 
 echo ================================================================
-echo   CRYPTO HUNTER PRO - COMPILADOR UNIVERSAL
+echo   CRYPTO HUNTER PRO - CIE (Crypto Intelligence Engine)
+echo   Compilador para Windows (x64 e x86)
 echo ================================================================
 echo.
 
@@ -17,8 +19,8 @@ if errorlevel 1 (
     echo [ERRO] Go nao encontrado!
     echo.
     echo Instale o Go em: https://go.dev/dl/
-    echo Baixe a versao "go1.22.x.windows-amd64.msi" ou superior.
-    echo Apos instalar, feche e reabra o terminal e execute novamente.
+    echo Baixe a versao "go1.24.4.windows-amd64.msi" ou superior.
+    echo Apos instalar, REINICIE o computador e execute novamente.
     echo.
     pause
     exit /b 1
@@ -209,10 +211,6 @@ echo   Qual usar?
 echo   - Se o Windows for 64-bit (maioria): !EXE_NAME_64!
 echo   - Se o Windows for 32-bit (antigo):  !EXE_NAME_86!
 echo   - Na duvida, use o x64. Se nao abrir, tente o x86.
-echo.
-echo   NOTA: O Windows Defender/SmartScreen pode alertar na primeira
-echo   execucao por ser um programa nao-assinado. Isso e normal.
-echo   Clique em "Mais informacoes" e depois "Executar mesmo assim".
 echo.
 
 if "%LICENSE_TYPE%"=="2" (
