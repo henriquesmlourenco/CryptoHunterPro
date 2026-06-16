@@ -168,70 +168,48 @@ Os dois modulos funcionam juntos como um pipeline completo de recuperacao:
 
 ---
 
-## Inicio Rapido
+## Inicio Rapido (Windows)
 
-### Opcao 1: Executar diretamente (mais facil)
+Siga estes 3 passos simples para rodar o programa no seu PC:
 
-1. Baixe o repositorio (botao verde "Code" → "Download ZIP") ou clone via Git
-2. Extraia o ZIP em uma pasta no seu computador
-3. Abra a pasta do modulo desejado (`CRYPTO_HUNTER_PRO_CIE` ou `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search`)
-4. Execute o `.exe` correspondente (x64 para Windows 64-bit, x86 para 32-bit)
-
-> **Nota:** O Windows SmartScreen pode exibir um aviso na primeira execucao por ser um programa nao-assinado digitalmente. Isso e normal e acontece com todo software independente/open-source. Clique em **"Mais informacoes"** e depois **"Executar assim mesmo"**.
-
----
-
-### Opcao 2: Compilar no seu PC (sem avisos do Windows)
-
-Se o Windows bloquear o .exe ou voce preferir compilar localmente (o que elimina todos os avisos do SmartScreen), siga estes passos:
-
-#### Passo 1: Instalar Go (apenas 1 vez)
+### Passo 1: Instalar Go (apenas 1 vez)
 
 1. Acesse: [https://go.dev/dl/](https://go.dev/dl/)
-2. Baixe o instalador para Windows: **`go1.24.4.windows-amd64.msi`** (ou versao superior)
+2. Baixe o instalador para Windows: **`go1.24.4.windows-amd64.msi`** (ou versao mais recente disponivel)
 3. Execute o instalador (Next → Next → Finish)
-4. **Reinicie o computador** (ou feche e reabra o terminal)
-5. Para confirmar a instalacao, abra o Prompt de Comando e digite:
-```
-go version
-```
-Se aparecer algo como `go version go1.24.4 windows/amd64`, esta pronto.
+4. **Reinicie o computador**
 
-> **Requisito minimo:** Go 1.21 ou superior. Recomendamos sempre a versao mais recente em [go.dev/dl](https://go.dev/dl/).
+> **Requisito minimo:** Go 1.21 ou superior.
 
-#### Passo 2: Baixar o Repositorio
+### Passo 2: Baixar este Repositorio
 
-- **Opcao A (ZIP):** Clique no botao verde "Code" → "Download ZIP" → Extraia a pasta
-- **Opcao B (Git):**
-```bash
-git clone https://github.com/CryptoHunterPro/crypto-hunter-pro.git
-```
+1. Clique no botao verde **"Code"** (aqui no GitHub) → **"Download ZIP"**
+2. Extraia o ZIP em qualquer pasta do seu computador
 
-#### Passo 3: Compilar e Executar
+### Passo 3: Executar
 
 1. Abra a pasta `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search`
 2. De **duplo clique** no arquivo `compilador.bat`
-3. O script verifica o Go, baixa dependencias e gera o .exe automaticamente
-4. Repita para a pasta `CRYPTO_HUNTER_PRO_CIE`
+3. O programa sera compilado e executado automaticamente
+4. Para o CIE, repita na pasta `CRYPTO_HUNTER_PRO_CIE`
 
-> **Pronto!** O .exe compilado localmente roda sem nenhum aviso do Windows, pois nao possui a marcacao de "arquivo baixado da internet".
+> **E so isso!** O `compilador.bat` faz tudo sozinho: verifica o Go, baixa dependencias e gera o executavel. Nenhum aviso do Windows, nenhum bloqueio.
 
 ---
 
 ### Linux e macOS
 
-**Requisitos:** Go 1.21+ instalado ([go.dev/dl](https://go.dev/dl/))
-
+1. Instale o Go: [go.dev/dl](https://go.dev/dl/)
+2. Clone o repositorio:
 ```bash
-# Clone o repositorio
 git clone https://github.com/CryptoHunterPro/crypto-hunter-pro.git
 cd crypto-hunter-pro
-
-# Compilar Unmixer Seed Search
+```
+3. Compile:
+```bash
 cd CRYPTO_HUNTER_PRO_Unmixer_Seed_Search
 go build -ldflags="-s -w" -o unmixer_seed_search .
 
-# Compilar CIE
 cd ../CRYPTO_HUNTER_PRO_CIE
 go build -ldflags="-s -w" -o crypto_hunter_pro_cie .
 ```
@@ -252,7 +230,7 @@ crypto-hunter-pro/
 
 > **Documentacao Completa:** Para instrucoes detalhadas de instalacao, uso e configuracao, acesse a pasta [`DOCS/`](./DOCS). La voce encontra os manuais completos em PDF (Portugues e Ingles) de cada modulo.
 >
-> **Compilacao local:** As pastas `CRYPTO_HUNTER_PRO_CIE/` e `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` contem o codigo-fonte e o `compilador.bat`. Basta ter o Go instalado e dar duplo clique no .bat para gerar o executavel no seu PC (sem avisos do Windows).
+> **Como usar:** As pastas `CRYPTO_HUNTER_PRO_CIE/` e `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` contem o codigo-fonte e o `compilador.bat`. Instale o Go, reinicie o PC e de duplo clique no .bat para compilar e executar.
 
 ---
 
@@ -453,70 +431,48 @@ The two modules work together as a complete recovery pipeline:
 
 ---
 
-## Quick Start
+## Quick Start (Windows)
 
-### Option 1: Run directly (easiest)
+Follow these 3 simple steps to run the program on your PC:
 
-1. Download the repository (green "Code" button → "Download ZIP") or clone via Git
-2. Extract the ZIP to a folder on your computer
-3. Open the desired module folder (`CRYPTO_HUNTER_PRO_CIE` or `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search`)
-4. Run the corresponding `.exe` (x64 for 64-bit Windows, x86 for 32-bit)
-
-> **Note:** Windows SmartScreen may show a warning on first run because the program is not digitally signed. This is normal for all independent/open-source software. Click **"More info"** then **"Run anyway"**.
-
----
-
-### Option 2: Compile on your PC (no Windows warnings)
-
-If Windows blocks the .exe or you prefer to compile locally (which eliminates all SmartScreen warnings), follow these steps:
-
-#### Step 1: Install Go (one time only)
+### Step 1: Install Go (one time only)
 
 1. Go to: [https://go.dev/dl/](https://go.dev/dl/)
-2. Download the Windows installer: **`go1.24.4.windows-amd64.msi`** (or newer version)
+2. Download the Windows installer: **`go1.24.4.windows-amd64.msi`** (or latest available version)
 3. Run the installer (Next → Next → Finish)
-4. **Restart your computer** (or close and reopen the terminal)
-5. To confirm installation, open Command Prompt and type:
-```
-go version
-```
-If you see something like `go version go1.24.4 windows/amd64`, you're ready.
+4. **Restart your computer**
 
-> **Minimum requirement:** Go 1.21 or higher. We recommend always using the latest version from [go.dev/dl](https://go.dev/dl/).
+> **Minimum requirement:** Go 1.21 or higher.
 
-#### Step 2: Download the Repository
+### Step 2: Download this Repository
 
-- **Option A (ZIP):** Click the green "Code" button → "Download ZIP" → Extract the folder
-- **Option B (Git):**
-```bash
-git clone https://github.com/CryptoHunterPro/crypto-hunter-pro.git
-```
+1. Click the green **"Code"** button (here on GitHub) → **"Download ZIP"**
+2. Extract the ZIP to any folder on your computer
 
-#### Step 3: Compile and Run
+### Step 3: Run
 
 1. Open the `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search` folder
 2. **Double-click** the `compilador.bat` file
-3. The script checks for Go, downloads dependencies, and generates the .exe automatically
-4. Repeat for the `CRYPTO_HUNTER_PRO_CIE` folder
+3. The program will be compiled and executed automatically
+4. For CIE, repeat in the `CRYPTO_HUNTER_PRO_CIE` folder
 
-> **Done!** The locally compiled .exe runs without any Windows warnings, as it doesn't have the "downloaded from the internet" flag.
+> **That's it!** The `compilador.bat` does everything: checks Go, downloads dependencies, and generates the executable. No Windows warnings, no blocks.
 
 ---
 
 ### Linux and macOS
 
-**Requirements:** Go 1.21+ installed ([go.dev/dl](https://go.dev/dl/))
-
+1. Install Go: [go.dev/dl](https://go.dev/dl/)
+2. Clone the repository:
 ```bash
-# Clone the repository
 git clone https://github.com/CryptoHunterPro/crypto-hunter-pro.git
 cd crypto-hunter-pro
-
-# Compile Unmixer Seed Search
+```
+3. Compile:
+```bash
 cd CRYPTO_HUNTER_PRO_Unmixer_Seed_Search
 go build -ldflags="-s -w" -o unmixer_seed_search .
 
-# Compile CIE
 cd ../CRYPTO_HUNTER_PRO_CIE
 go build -ldflags="-s -w" -o crypto_hunter_pro_cie .
 ```
@@ -537,7 +493,7 @@ crypto-hunter-pro/
 
 > **Full Documentation:** For detailed installation, usage, and configuration instructions, access the [`DOCS/`](./DOCS) folder. There you will find complete manuals in PDF (Portuguese and English) for each module.
 >
-> **Ready-to-use executables:** The `CRYPTO_HUNTER_PRO_CIE/` and `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` folders contain pre-compiled executables (.exe) for Windows. If SmartScreen blocks them, compile locally using `compilador.bat` (requires Go installed).
+> **How to use:** The `CRYPTO_HUNTER_PRO_CIE/` and `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` folders contain the source code and `compilador.bat`. Install Go, restart your PC, and double-click the .bat to compile and run.
 
 ---
 
