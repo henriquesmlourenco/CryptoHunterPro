@@ -248,18 +248,20 @@ go build -ldflags="-s -w" -o crypto_hunter_pro_cie .
 ## Estrutura do Repositorio
 
 ```
-crypto-hunter-pro/
-├── CRYPTO_HUNTER_PRO_CIE/              # Codigo-fonte + executaveis do CIE
-├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/  # Codigo-fonte + executaveis do Unmixer
-├── DOCS/                               # Documentacao completa (PDF em PT e EN)
+CryptoHunterPro/
+├── CRYPTO_HUNTER_PRO_CIE/                      # Codigo-fonte + compilador.bat do CIE
+├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/      # Codigo-fonte + compilador.bat do Unmixer
+├── DOCS/                                       # Documentacao completa (PDF em PT e EN)
+├── CryptoHunterPro_Windows_Executables.zip     # Executaveis prontos para Windows (x64 e x86)
+├── LICENSE
 ├── README.md
-├── logo.png
-└── LICENSE
+├── ascii_art.png
+└── logo.png
 ```
 
 > **Documentacao Completa:** Para instrucoes detalhadas de instalacao, uso e configuracao, acesse a pasta [`DOCS/`](./DOCS). La voce encontra os manuais completos em PDF (Portugues e Ingles) de cada modulo.
 >
-> **Como usar:** As pastas `CRYPTO_HUNTER_PRO_CIE/` e `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` contem o codigo-fonte e o `compilador.bat`. Instale o Go, reinicie o PC e de duplo clique no .bat para compilar e executar.
+> **Download rapido:** Baixe o `CryptoHunterPro_Windows_Executables.zip`, extraia e execute. Para compilar localmente, abra a pasta do modulo desejado e de duplo clique no `compilador.bat` (requer Go instalado).
 
 ---
 
@@ -516,18 +518,20 @@ go build -ldflags="-s -w" -o crypto_hunter_pro_cie .
 ## Repository Structure
 
 ```
-crypto-hunter-pro/
-├── CRYPTO_HUNTER_PRO_CIE/              # Source code + executables for CIE
-├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/  # Source code + executables for Unmixer
-├── DOCS/                               # Full documentation (PDF in PT and EN)
+CryptoHunterPro/
+├── CRYPTO_HUNTER_PRO_CIE/                      # Source code + compilador.bat for CIE
+├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/      # Source code + compilador.bat for Unmixer
+├── DOCS/                                       # Full documentation (PDF in PT and EN)
+├── CryptoHunterPro_Windows_Executables.zip     # Ready-to-run Windows executables (x64 and x86)
+├── LICENSE
 ├── README.md
-├── logo.png
-└── LICENSE
+├── ascii_art.png
+└── logo.png
 ```
 
 > **Full Documentation:** For detailed installation, usage, and configuration instructions, access the [`DOCS/`](./DOCS) folder. There you will find complete manuals in PDF (Portuguese and English) for each module.
 >
-> **How to use:** The `CRYPTO_HUNTER_PRO_CIE/` and `CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/` folders contain the source code and `compilador.bat`. Install Go, restart your PC, and double-click the .bat to compile and run.
+> **Quick download:** Download `CryptoHunterPro_Windows_Executables.zip`, extract and run. To compile locally, open the desired module folder and double-click `compilador.bat` (requires Go installed).
 
 ---
 
