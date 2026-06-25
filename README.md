@@ -66,6 +66,30 @@
 
 ---
 
+<h2 align="center">Download</h2>
+
+<p align="center">
+  <a href="https://github.com/henriquesmlourenco/CryptoHunterPro/raw/main/CryptoHunterPro_Windows_Executables.zip">
+    <img src="https://img.shields.io/badge/Download-Windows%20Executables-blue?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>Aviso do Windows SmartScreen / Windows SmartScreen Warning:</strong><br/><br/>
+  Na primeira execucao, o Windows pode exibir: <em>"O Windows protegeu o computador"</em>.<br/>
+  On first run, Windows may display: <em>"Windows protected your PC"</em>.<br/><br/>
+  Isso acontece porque o software e <strong>open-source</strong> e nao possui certificado digital pago ($200-400/ano).<br/>
+  This happens because the software is <strong>open-source</strong> and does not have a paid digital certificate ($200-400/year).<br/><br/>
+  O codigo-fonte esta 100% disponivel neste repositorio para auditoria.<br/>
+  The source code is 100% available in this repository for audit.<br/><br/>
+  <strong>Para prosseguir / To proceed:</strong><br/>
+  1. Clique em <strong>"Mais informacoes"</strong> / Click <strong>"More info"</strong><br/>
+  2. Clique em <strong>"Executar assim mesmo"</strong> / Click <strong>"Run anyway"</strong><br/><br/>
+  <em>Isso so acontece na primeira vez. / This only happens the first time.</em>
+</p>
+
+---
+
 <p align="center">
   <strong>Este README esta disponivel em:</strong><br/>
   <a href="#portugues-brasil">Portugues :brazil:</a> · <a href="#english">English :us:</a>
