@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/License-Open%20Source-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Networks-31%2B%20Blockchains-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tokens-160%2B-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tokens-170%2B-purple?style=for-the-badge" />
 </p>
 
 <h1 align="center">CRYPTO HUNTER PRO</h1>
@@ -129,10 +129,14 @@ O **Unmixer Seed Search** é um motor de permutação de seed phrases BIP39 que 
 |----------------|-----------|
 | **4 Modos de Input** | Simples (ordem conhecida), Avançado Parcial (wildcards + ordem desconhecida), Avançado Completo (palavras completas + ordem desconhecida), Descrambler (testa TODAS as permutações) |
 | **Suporte a Wildcards** | Use `*` para partes desconhecidas: `aban*`, `bo*`, `*tion`, `*` (palavra inteira desconhecida) |
+| **Seeds de 12 a 24 palavras** | Aceita seeds de 12, 15, 18, 21 ou 24 palavras |
 | **9 Idiomas BIP39** | Inglês, Espanhol, Francês, Italiano, Português, Japonês, Coreano, Chinês Simplificado, Chinês Tradicional |
+| **3 Tipos de Validação** | BIP39 (padrão), HMAC-SHA512 (Electrum/Electron Cash nativo), Sem Validação (força bruta — gera ~16x mais resultados) |
 | **Correção Inteligente de Typos** | Sugestões automáticas quando você digita uma palavra errada (distância de Levenshtein + mapa de teclas adjacentes + detecção de transposição) |
-| **Validação de Checksum BIP39** | Apenas gera seeds que passam na verificação criptográfica de checksum |
-| **Exportação Excel** | Resultados salvos em arquivos `.xlsx` organizados, prontos para importação no CIE |
+| **Sistema OK/NOK/?** | Defina posições fixas (OK), excluídas (NOK) ou livres (?) para reduzir drasticamente o número de permutações |
+| **Pré-cálculo de Permutações** | Mostra QUANTAS combinações serão geradas e quantos arquivos serão criados ANTES de processar |
+| **Exportação Multi-Arquivo Excel** | Divisão automática em arquivos de até 500.000 seeds, com nomenclatura sequencial e pastas com timestamp |
+| **Deduplicação Automática** | Nunca gera seeds duplicadas, mesmo em modos com wildcards |
 | **Interface Bilíngue** | Suporte completo em Português e Inglês |
 
 **Como Funciona:**
@@ -145,20 +149,26 @@ Suas palavras embaralhadas/parciais → Unmixer → Todas as combinações BIP39
 
 ### Módulo 2: CIE - Crypto Intelligence Engine
 
-O **CIE (Crypto Intelligence Engine)** é um scanner multi-chain de carteiras que recebe seed phrases e automaticamente verifica saldos em 31+ blockchains e 160+ tokens.
+O **CIE (Crypto Intelligence Engine)** é um scanner multi-chain de carteiras que recebe seed phrases e automaticamente verifica saldos em 31+ blockchains e 170+ tokens.
 
 **Funcionalidades Principais:**
 
 | Funcionalidade | Descrição |
 |----------------|-----------|
 | **31 Blockchains** | Bitcoin, Ethereum, BSC, Polygon, Arbitrum, Avalanche, Optimism, Base, Solana, Tron, Litecoin, Dogecoin, TON, Zcash, XRP, Stellar, Algorand, Sui, Near, e mais |
-| **160+ Tokens** | Verificação automática de saldos ERC-20, BEP-20, SPL, TRC-20 |
-| **Multi-Derivation Paths** | Testa TODOS os formatos de endereço automaticamente (Legacy, SegWit, Native SegWit, Taproot) |
+| **170+ Tokens** | Verificação automática de saldos ERC-20, BEP-20, SPL, TRC-20 |
+| **Descoberta Automática de Tokens** | Em 9 redes EVM (via Blockscout), Solana (via RPC), Tron (via TronGrid), Stellar, Algorand e Sui — encontra QUALQUER token, inclusive memecoins, sem configuração |
+| **Multi-Derivation Paths** | Testa TODOS os formatos de endereço automaticamente (Legacy, SegWit, Native SegWit, Taproot, CashAddr) |
 | **Pool de APIs Múltiplas** | Sistema de failover com múltiplos provedores por rede para máxima confiabilidade |
+| **API Keys Opcionais** | Configure Alchemy (16 redes EVM + Solana) e/ou TronGrid para maior velocidade; fallback automático para APIs públicas se a paga falhar |
 | **Importação Excel** | Importação direta dos resultados do Unmixer Seed Search |
 | **Exibição em Tempo Real** | Acompanhe os endereços sendo verificados ao vivo com indicadores de saldo |
+| **Detecção de Histórico** | Além de saldo atual, detecta se o endereço já teve transações (saldo zerado mas com histórico) |
 | **Relatórios Detalhados** | Saída em Excel com abas Resumo, Com Saldo e Com Histórico |
 | **Suporte a Passphrase** | Teste de passphrase BIP39 opcional (25ª palavra) |
+| **Skip Checksum** | Opção de pular validação BIP39 para seeds de carteiras não-padrão (Electrum, etc.) |
+| **Range de Índices Custom** | Escolha o range de índices de derivação (0-20, 0-50, 0-100 ou personalizado) |
+| **Interface Bilíngue** | Suporte completo em Português e Inglês |
 
 **Redes Suportadas:**
 
@@ -325,14 +335,20 @@ Escaneando 31 redes...
 | Bitcoin | SegWit (3...) | m/49'/0'/0'/0/x |
 | Bitcoin | Native SegWit (bc1q...) | m/84'/0'/0'/0/x |
 | Bitcoin | Taproot (bc1p...) | m/86'/0'/0'/0/x |
+| Bitcoin Cash | CashAddr (bitcoincash:q...) | m/44'/145'/0'/0/x |
+| Bitcoin Cash | Legacy (1...) | m/44'/145'/0'/0/x |
 | EVM (todas) | Padrão (0x...) | m/44'/60'/0'/0/x |
 | Solana | Ed25519 | m/44'/501'/0'/0' |
 | Tron | Padrão (T...) | m/44'/195'/0'/0/x |
 | Litecoin | Legacy/SegWit/Native | m/44'/2', m/49'/2', m/84'/2' |
 | Dogecoin | Padrão (D...) | m/44'/3'/0'/0/x |
 | TON | Ed25519 | m/44'/607'/0' |
+| Zcash | Transparente (t1...) | m/44'/133'/0'/0/x |
 | XRP | Padrão (r...) | m/44'/144'/0'/0/x |
 | Stellar | Ed25519 (G...) | m/44'/148'/0' |
+| Algorand | Ed25519 (Base32) | m/44'/283'/0'/0/x |
+| Sui | Ed25519 (0x...) | m/44'/784'/0'/0'/0' |
+| Near | Ed25519 (hex) | m/44'/397'/0' |
 
 ---
 
@@ -399,10 +415,14 @@ The **Unmixer Seed Search** is a BIP39 seed phrase permutation engine that gener
 |---------|-------------|
 | **4 Input Modes** | Simple (known order), Advanced Partial (wildcards + unknown order), Advanced Complete (full words + unknown order), Descrambler (test ALL permutations) |
 | **Wildcard Support** | Use `*` for unknown parts: `aban*`, `bo*`, `*tion`, `*` (full unknown) |
+| **12 to 24-word Seeds** | Accepts seeds with 12, 15, 18, 21, or 24 words |
 | **9 BIP39 Languages** | English, Spanish, French, Italian, Portuguese, Japanese, Korean, Chinese Simplified, Chinese Traditional |
+| **3 Validation Types** | BIP39 (standard), HMAC-SHA512 (native Electrum/Electron Cash), No Validation (brute force — generates ~16x more results) |
 | **Smart Typo Correction** | Automatic suggestions when you mistype a word (Levenshtein distance + keyboard adjacency maps + transposition detection) |
-| **BIP39 Checksum Validation** | Only outputs seeds that pass cryptographic checksum verification |
-| **Excel Export** | Results saved in organized `.xlsx` files ready for CIE import |
+| **OK/NOK/? System** | Set fixed (OK), excluded (NOK), or free (?) positions to drastically reduce the number of permutations |
+| **Permutation Pre-calculation** | Shows HOW MANY combinations will be generated and how many files will be created BEFORE processing |
+| **Multi-File Excel Export** | Automatic split into files of up to 500,000 seeds, with sequential naming and timestamped folders |
+| **Automatic Deduplication** | Never generates duplicate seeds, even in wildcard modes |
 | **Bilingual Interface** | Full English and Portuguese support |
 
 **How It Works:**
@@ -415,20 +435,26 @@ Your scrambled/partial words → Unmixer → All valid BIP39 seed combinations �
 
 ### Module 2: CIE - Crypto Intelligence Engine
 
-The **CIE (Crypto Intelligence Engine)** is a multi-chain wallet scanner that takes seed phrases and automatically checks balances across 31+ blockchains and 160+ tokens.
+The **CIE (Crypto Intelligence Engine)** is a multi-chain wallet scanner that takes seed phrases and automatically checks balances across 31+ blockchains and 170+ tokens.
 
 **Key Features:**
 
 | Feature | Description |
 |---------|-------------|
 | **31 Blockchains** | Bitcoin, Ethereum, BSC, Polygon, Arbitrum, Avalanche, Optimism, Base, Solana, Tron, Litecoin, Dogecoin, TON, Zcash, XRP, Stellar, Algorand, Sui, Near, and more |
-| **160+ Tokens** | Automatic balance check for ERC-20, BEP-20, SPL, TRC-20 tokens |
-| **Multi-Derivation Paths** | Test ALL address formats automatically (Legacy, SegWit, Native SegWit, Taproot) |
+| **170+ Tokens** | Automatic balance check for ERC-20, BEP-20, SPL, TRC-20 tokens |
+| **Automatic Token Discovery** | On 9 EVM networks (via Blockscout), Solana (via RPC), Tron (via TronGrid), Stellar, Algorand, and Sui — finds ANY token, including memecoins, with zero configuration |
+| **Multi-Derivation Paths** | Test ALL address formats automatically (Legacy, SegWit, Native SegWit, Taproot, CashAddr) |
 | **Multiple API Pools** | Failover system with multiple providers per network for maximum reliability |
+| **Optional API Keys** | Configure Alchemy (16 EVM networks + Solana) and/or TronGrid for higher speed; automatic fallback to public APIs if paid key fails |
 | **Excel Import** | Direct import from Unmixer Seed Search results |
 | **Real-time Display** | Watch addresses being checked live with balance indicators |
+| **History Detection** | Beyond current balance, detects if address ever had transactions (zero balance but with history) |
 | **Detailed Reports** | Excel output with Summary, With Balance, and With History tabs |
 | **Passphrase Support** | Optional BIP39 passphrase (25th word) testing |
+| **Skip Checksum** | Option to skip BIP39 validation for non-standard wallet seeds (Electrum, etc.) |
+| **Custom Index Range** | Choose derivation index range (0-20, 0-50, 0-100, or custom) |
+| **Bilingual Interface** | Full English and Portuguese support |
 
 **Supported Networks:**
 
@@ -595,14 +621,20 @@ Scanning 31 networks...
 | Bitcoin | SegWit (3...) | m/49'/0'/0'/0/x |
 | Bitcoin | Native SegWit (bc1q...) | m/84'/0'/0'/0/x |
 | Bitcoin | Taproot (bc1p...) | m/86'/0'/0'/0/x |
+| Bitcoin Cash | CashAddr (bitcoincash:q...) | m/44'/145'/0'/0/x |
+| Bitcoin Cash | Legacy (1...) | m/44'/145'/0'/0/x |
 | EVM (all) | Standard (0x...) | m/44'/60'/0'/0/x |
 | Solana | Ed25519 | m/44'/501'/0'/0' |
 | Tron | Standard (T...) | m/44'/195'/0'/0/x |
 | Litecoin | Legacy/SegWit/Native | m/44'/2', m/49'/2', m/84'/2' |
 | Dogecoin | Standard (D...) | m/44'/3'/0'/0/x |
 | TON | Ed25519 | m/44'/607'/0' |
+| Zcash | Transparent (t1...) | m/44'/133'/0'/0/x |
 | XRP | Standard (r...) | m/44'/144'/0'/0/x |
 | Stellar | Ed25519 (G...) | m/44'/148'/0' |
+| Algorand | Ed25519 (Base32) | m/44'/283'/0'/0/x |
+| Sui | Ed25519 (0x...) | m/44'/784'/0'/0'/0' |
+| Near | Ed25519 (hex) | m/44'/397'/0' |
 
 ---
 
