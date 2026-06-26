@@ -75,7 +75,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/henriquesmlourenco/CryptoHunterPro/total?style=flat-square&label=Downloads&color=brightgreen" />
+  <img src="https://img.shields.io/github/downloads/henriquesmlourenco/CryptoHunterPro/total?style=flat-square&label=Downloads&color=brightgreen&v=2" />
+  <br/>
+  <img src="https://hits.sh/github.com/henriquesmlourenco/CryptoHunterPro.svg?style=flat-square&label=Visitantes%20%2F%20Visitors&color=blue" />
 </p>
 
 <p align="center">
