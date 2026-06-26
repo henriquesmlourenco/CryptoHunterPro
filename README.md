@@ -69,9 +69,13 @@
 <h2 align="center">Download</h2>
 
 <p align="center">
-  <a href="https://github.com/henriquesmlourenco/CryptoHunterPro/raw/main/CryptoHunterPro_Windows_Executables.zip">
+  <a href="https://github.com/henriquesmlourenco/CryptoHunterPro/releases/download/v1.0/CryptoHunterPro_Windows_Executables.zip">
     <img src="https://img.shields.io/badge/BAIXAR%20%2F%20DOWNLOAD-Windows%20(.zip)-blue?style=for-the-badge&logo=windows&logoColor=white" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/henriquesmlourenco/CryptoHunterPro/total?style=flat-square&label=Downloads&color=brightgreen" />
 </p>
 
 <p align="center">
