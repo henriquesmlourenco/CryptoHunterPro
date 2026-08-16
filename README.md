@@ -217,7 +217,7 @@ Os dois módulos funcionam juntos como um pipeline completo de recuperação:
 
 1. Baixe o ZIP acima
 2. Extraia em qualquer pasta do seu computador
-3. Execute o `.exe` desejado (x64 para Windows 64-bit, x86 para 32-bit)
+3. Execute o `.exe` desejado (64-bit)
 
 ### Aviso do Windows SmartScreen
 
@@ -269,7 +269,6 @@ CryptoHunterPro/
 ├── CRYPTO_HUNTER_PRO_CIE/                      # Código-fonte + compilador.bat do CIE
 ├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/      # Código-fonte + compilador.bat do Unmixer
 ├── DOCS/                                       # Documentação completa (PDF em PT e EN)
-├── CryptoHunterPro_Windows_Executables.zip     # Executáveis prontos para Windows (x64 e x86)
 ├── LICENSE
 ├── README.md
 ├── ascii_art.png
@@ -278,7 +277,7 @@ CryptoHunterPro/
 
 > **Documentação Completa:** Para instruções detalhadas de instalação, uso e configuração, acesse a pasta [`DOCS/`](./DOCS). Lá você encontra os manuais completos em PDF (Português e Inglês) de cada módulo.
 >
-> **Download rápido:** Baixe o `CryptoHunterPro_Windows_Executables.zip`, extraia e execute. Para compilar localmente, abra a pasta do módulo desejado e dê duplo clique no `compilador.bat` (requer Go instalado).
+> **Download rápido:** Baixe os executáveis na [Release v2.0](https://github.com/henriquesmlourenco/CryptoHunterPro/releases/tag/v2.0), extraia e execute. Para compilar localmente, abra a pasta do módulo desejado e dê duplo clique no `compilador.bat` (requer Go instalado).
 
 ---
 
@@ -353,8 +352,10 @@ Escaneando 32 redes...
 | Sui | Ed25519 (0x...) | m/44'/784'/0'/0'/0' |
 | Near | Ed25519 (hex) | m/44'/397'/0' |
 | Liquid Network | Bech32 (ex1...) | m/44'/1776'/0'/0/x |
-| Electrum (Standard) | P2PKH (1...) | m/0/x |
-| Electrum (Segwit) | P2WPKH (bc1q...) | m/0'/0/x |
+| Bitcoin (Electrum Standard) | P2PKH (1...) | m/0/x |
+| Bitcoin (Electrum Segwit) | P2WPKH (bc1q...) | m/0'/0/x |
+| Litecoin (Electrum Standard) | P2PKH (L...) | m/0/x |
+| Litecoin (Electrum Segwit) | P2WPKH (ltc1q...) | m/0'/0/x |
 
 ---
 
@@ -509,7 +510,7 @@ The two modules work together as a complete recovery pipeline:
 
 1. Download the ZIP above
 2. Extract to any folder on your computer
-3. Run the desired `.exe` (x64 for 64-bit Windows, x86 for 32-bit)
+3. Run the desired `.exe` (64-bit)
 
 ### Windows SmartScreen Warning
 
@@ -561,7 +562,6 @@ CryptoHunterPro/
 ├── CRYPTO_HUNTER_PRO_CIE/                      # Source code + compilador.bat for CIE
 ├── CRYPTO_HUNTER_PRO_Unmixer_Seed_Search/      # Source code + compilador.bat for Unmixer
 ├── DOCS/                                       # Full documentation (PDF in PT and EN)
-├── CryptoHunterPro_Windows_Executables.zip     # Ready-to-run Windows executables (x64 and x86)
 ├── LICENSE
 ├── README.md
 ├── ascii_art.png
@@ -570,7 +570,7 @@ CryptoHunterPro/
 
 > **Full Documentation:** For detailed installation, usage, and configuration instructions, access the [`DOCS/`](./DOCS) folder. There you will find complete manuals in PDF (Portuguese and English) for each module.
 >
-> **Quick download:** Download `CryptoHunterPro_Windows_Executables.zip`, extract and run. To compile locally, open the desired module folder and double-click `compilador.bat` (requires Go installed).
+> **Quick download:** Download the executables from [Release v2.0](https://github.com/henriquesmlourenco/CryptoHunterPro/releases/tag/v2.0), extract and run. To compile locally, open the desired module folder and double-click `compilador.bat` (requires Go installed).
 
 ---
 
@@ -645,8 +645,10 @@ Scanning 32 networks...
 | Sui | Ed25519 (0x...) | m/44'/784'/0'/0'/0' |
 | Near | Ed25519 (hex) | m/44'/397'/0' |
 | Liquid Network | Bech32 (ex1...) | m/44'/1776'/0'/0/x |
-| Electrum (Standard) | P2PKH (1...) | m/0/x |
-| Electrum (Segwit) | P2WPKH (bc1q...) | m/0'/0/x |
+| Bitcoin (Electrum Standard) | P2PKH (1...) | m/0/x |
+| Bitcoin (Electrum Segwit) | P2WPKH (bc1q...) | m/0'/0/x |
+| Litecoin (Electrum Standard) | P2PKH (L...) | m/0/x |
+| Litecoin (Electrum Segwit) | P2WPKH (ltc1q...) | m/0'/0/x |
 
 ---
 
