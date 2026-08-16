@@ -1,3 +1,19 @@
+<h1 align="center">DOWNLOAD</h1>
+
+<p align="center">
+  <a href="https://github.com/henriquesmlourenco/CryptoHunterPro/releases/download/v2.0/Executaveis.CIE.e.Unmixer.Seed.Search.zip">
+    <img src="https://img.shields.io/badge/BAIXAR%20%2F%20DOWNLOAD-Windows%20(.zip)-blue?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/henriquesmlourenco/CryptoHunterPro/total?style=flat-square&label=Downloads&color=brightgreen&v=2" />
+  <br/>
+  <img src="https://hits.sh/github.com/henriquesmlourenco/CryptoHunterPro.svg?style=flat-square&label=Visitantes%20%2F%20Visitors&color=blue" />
+</p>
+
+---
+
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge" />
@@ -65,20 +81,6 @@
 </p>
 
 ---
-
-<h2 align="center">Download</h2>
-
-<p align="center">
-  <a href="https://github.com/henriquesmlourenco/CryptoHunterPro/releases/download/v2.0/Executaveis.CIE.e.Unmixer.Seed.Search.zip">
-    <img src="https://img.shields.io/badge/BAIXAR%20%2F%20DOWNLOAD-Windows%20(.zip)-blue?style=for-the-badge&logo=windows&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/downloads/henriquesmlourenco/CryptoHunterPro/total?style=flat-square&label=Downloads&color=brightgreen&v=2" />
-  <br/>
-  <img src="https://hits.sh/github.com/henriquesmlourenco/CryptoHunterPro.svg?style=flat-square&label=Visitantes%20%2F%20Visitors&color=blue" />
-</p>
 
 <p align="center">
   <strong>Aviso do Windows SmartScreen / Windows SmartScreen Warning:</strong><br/><br/>
