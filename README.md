@@ -12,6 +12,14 @@
   <img src="https://hits.sh/github.com/henriquesmlourenco/CryptoHunterPro.svg?style=flat-square&label=Visitantes%20%2F%20Visitors&color=blue" />
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/company/CryptoHunterPro">
+    <img src="https://img.shields.io/badge/Novidades%20%2F%20News-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <br/>
+  <em>Mantenha-se atualizado / Stay up to date</em>
+</p>
+
 ---
 
 <p align="center">
