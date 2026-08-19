@@ -14,10 +14,10 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/company/CryptoHunterPro">
-    <img src="https://img.shields.io/badge/Novidades%20%2F%20News-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LINKEDIN-Official%20Crypto%20Hunter%20Pro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <br/>
-  <em>Mantenha-se atualizado / Stay up to date</em>
+  <a href="https://www.linkedin.com/company/CryptoHunterPro">https://www.linkedin.com/company/CryptoHunterPro</a>
 </p>
 
 ---
